@@ -5,7 +5,7 @@
   "author": "Vladislav Kovalskij",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development node src/index.js",
+    "start": "node src/index.js",
     "jslint": "./node_modules/.bin/eslint src --ext .js --ext .jsx --max-warnings=0",
     "lint-and-fix": "npm run jslint --fix"
   },
